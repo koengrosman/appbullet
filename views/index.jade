@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+  body
+  h3 POST A MESSAGE
+  form(action='/addtodatabase', method='post')
+    p
+      | Title: 
+      input(type='text', name='title')
+    p
+      | Body: 
+      input(type='text', name='body')
+    input(type='submit' value='Submit')
+
